@@ -12,12 +12,12 @@ sudo apt-get install -y \
   less \
   lsb-release \
   sudo \
+  tmux \
   unzip \
   wget \
   zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
-sudo apt-get autoremove -y
 sudo apt-get autoremove -y
 sudo rm -rf /var/lib/apt/lists/*
