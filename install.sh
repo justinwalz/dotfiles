@@ -16,6 +16,7 @@ sudo apt-get install -y \
   sudo \
   tmux \
   unzip \
+  vim \
   wget \
   zsh
 
@@ -33,3 +34,5 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ho
   tig
 
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> ~/.profile
+
+export EDITOR=vim
