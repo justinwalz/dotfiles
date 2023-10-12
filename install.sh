@@ -35,4 +35,6 @@ NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Ho
 
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> ~/.profile
 
+git config --global --add --bool push.autoSetupRemote true
+
 export EDITOR=vim
